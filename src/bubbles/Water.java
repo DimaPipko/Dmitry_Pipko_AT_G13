@@ -1,10 +1,10 @@
 package bubbles;
 
 public abstract class Water {
-    protected double temperature;
-    protected String color;
-    protected String transparency;
-    protected String smell;
+    private double temperature;
+    private String color;
+    private String transparency;
+    private String smell;
 
     public Water(double temperature, String color, String transparency, String smell) {
         this.temperature = temperature;
