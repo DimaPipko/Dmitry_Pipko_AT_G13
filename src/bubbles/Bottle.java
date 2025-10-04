@@ -9,4 +9,16 @@ public class Bottle {
         this.water = water;
     }
 
+    public void open() {
+        System.out.println("Opening " + volume + "L bottle...");
+        water.degas();
+    }
+
+    public double getVolume() {
+        return volume;
+    }
+
+    public SparklingWater getWater() {
+        return water;
+    }
 }
